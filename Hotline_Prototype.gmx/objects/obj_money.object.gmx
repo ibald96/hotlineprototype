@@ -55,7 +55,7 @@
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="c">
+    <event eventtype="4" ename="p">
       <action>
         <libid>1</libid>
         <id>603</id>
