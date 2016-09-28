@@ -348,7 +348,11 @@
     <option_mac_copyright_info>(c)2016 CompanyName Ltd...</option_mac_copyright_info>
     <option_mac_create_app_store>-1</option_mac_create_app_store>
     <option_mac_display_name>Hotline_Prototype</option_mac_display_name>
+<<<<<<< HEAD
     <option_mac_enable_retina>0</option_mac_enable_retina>
+=======
+    <option_mac_enable_retina>false</option_mac_enable_retina>
+>>>>>>> origin/master
     <option_mac_enable_steam>0</option_mac_enable_steam>
     <option_mac_fullscreen>0</option_mac_fullscreen>
     <option_mac_icon_png>Configs\Default\mac\icon512.png</option_mac_icon_png>
@@ -371,12 +375,23 @@
     <option_noscreensaver>true</option_noscreensaver>
     <option_ouya_packaging>0</option_ouya_packaging>
     <option_priority>0</option_priority>
+<<<<<<< HEAD
     <option_ps3_interpolate>-1</option_ps3_interpolate>
+=======
+    <option_ps3_build_version>0</option_ps3_build_version>
+    <option_ps3_interpolate>-1</option_ps3_interpolate>
+    <option_ps3_major_version>1</option_ps3_major_version>
+    <option_ps3_minor_version>0</option_ps3_minor_version>
+>>>>>>> origin/master
     <option_ps3_nptitleid></option_ps3_nptitleid>
     <option_ps3_nptitlepassphrase>Memo1</option_ps3_nptitlepassphrase>
     <option_ps3_nptitlesecret>Memo1</option_ps3_nptitlesecret>
     <option_ps3_package_id></option_ps3_package_id>
     <option_ps3_passcode></option_ps3_passcode>
+<<<<<<< HEAD
+=======
+    <option_ps3_revision_version>0</option_ps3_revision_version>
+>>>>>>> origin/master
     <option_ps3_scale>0</option_ps3_scale>
     <option_ps3_texture_page>2048</option_ps3_texture_page>
     <option_ps3_version>1.00</option_ps3_version>
@@ -409,7 +424,7 @@
     <option_quitkey>true</option_quitkey>
     <option_resolution>0</option_resolution>
     <option_savekey>true</option_savekey>
-    <option_scale>-1</option_scale>
+    <option_scale>0</option_scale>
     <option_scaleprogress>true</option_scaleprogress>
     <option_sci_UseSCI>0</option_sci_UseSCI>
     <option_sci_serverLocation></option_sci_serverLocation>
@@ -460,7 +475,11 @@
     <option_tvos_splash_png>Configs\Default\tvos\splash.png</option_tvos_splash_png>
     <option_tvos_splash_time>0</option_tvos_splash_time>
     <option_tvos_texture_page>2048</option_tvos_texture_page>
+<<<<<<< HEAD
     <option_use_fast_collision>False</option_use_fast_collision>
+=======
+    <option_use_fast_collision>false</option_use_fast_collision>
+>>>>>>> origin/master
     <option_use_new_audio>True</option_use_new_audio>
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
@@ -623,13 +642,18 @@
     <option_winphone_texture_page>1024</option_winphone_texture_page>
     <option_winphone_tile_type>0</option_winphone_tile_type>
     <option_writeerrors>False</option_writeerrors>
+<<<<<<< HEAD
     <option_xbone_background_colour>#464646</option_xbone_background_colour>
+=======
+    <option_xbone_background_colour>#FFFFFF</option_xbone_background_colour>
+>>>>>>> origin/master
     <option_xbone_build_version>0</option_xbone_build_version>
-    <option_xbone_description>Your Description</option_xbone_description>
-    <option_xbone_display_name>Hotline_Prototype</option_xbone_display_name>
+    <option_xbone_description></option_xbone_description>
+    <option_xbone_display_name></option_xbone_display_name>
     <option_xbone_events_manifest_index>-1</option_xbone_events_manifest_index>
     <option_xbone_foreground_text>light</option_xbone_foreground_text>
     <option_xbone_interpolation>-1</option_xbone_interpolation>
+<<<<<<< HEAD
     <option_xbone_languages>"&lt;!-- Add languages you support here --&gt;","&lt;!-- os_get_language will only return languages listed --&gt;","&lt;!-- ""en"" is supported by default --&gt;","&lt;!-- See ""NLS APIs and Localization"" white paper --&gt;","&lt;!-- from developer.xboxlive.com for info --&gt;"</option_xbone_languages>
     <option_xbone_major_version>1</option_xbone_major_version>
     <option_xbone_minor_version>0</option_xbone_minor_version>
@@ -637,16 +661,25 @@
     <option_xbone_product_id></option_xbone_product_id>
     <option_xbone_publisher>Company Name</option_xbone_publisher>
     <option_xbone_publisher_display_name>Company Display Name</option_xbone_publisher_display_name>
+=======
+    <option_xbone_languages>"&lt;!-- Insert the languages your title supports here --&gt;","&lt;!-- os_get_language will only return languages that are listed --&gt;","&lt;!-- ""en"" is supported by default --&gt;","&lt;!-- Resource Language=""en-us""/ --&gt;"</option_xbone_languages>
+    <option_xbone_major_version>0</option_xbone_major_version>
+    <option_xbone_minor_version>0</option_xbone_minor_version>
+    <option_xbone_network_manifest_file></option_xbone_network_manifest_file>
+    <option_xbone_product_id></option_xbone_product_id>
+    <option_xbone_publisher></option_xbone_publisher>
+    <option_xbone_publisher_display_name></option_xbone_publisher_display_name>
+>>>>>>> origin/master
     <option_xbone_ratings>"&lt;mx:Ratings Category=""game""&gt;","&lt;!-- Insert your title ratings here --&gt;","&lt;!-- See ""Title Ratings for Xbox One"" white paper --&gt;","&lt;!-- from developer.xboxlive.com for details --&gt;",&lt;/mx:Ratings&gt;</option_xbone_ratings>
     <option_xbone_require_audio_recording>False</option_xbone_require_audio_recording>
     <option_xbone_require_game_chat>False</option_xbone_require_game_chat>
     <option_xbone_require_xbox_live>True</option_xbone_require_xbox_live>
     <option_xbone_revision_version>0</option_xbone_revision_version>
     <option_xbone_scale>-1</option_xbone_scale>
-    <option_xbone_service_config_id>1234ABCD-1234-1234-1234-123456789ABC</option_xbone_service_config_id>
-    <option_xbone_splash_screen_colour>#464646</option_xbone_splash_screen_colour>
+    <option_xbone_service_config_id></option_xbone_service_config_id>
+    <option_xbone_splash_screen_colour>#FFFFFF</option_xbone_splash_screen_colour>
     <option_xbone_texture_page>1024</option_xbone_texture_page>
-    <option_xbone_title_id>1234ABCD</option_xbone_title_id>
+    <option_xbone_title_id></option_xbone_title_id>
   </Options>
   <ConfigConstants/>
 </Config>
