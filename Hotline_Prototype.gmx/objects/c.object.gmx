@@ -38,14 +38,22 @@ ts = 320; //tile size
 tw = room_width/ts;
 th = room_height/ts;
 
+//City Gen
 for (var xx = 0; xx &lt; tw; xx++) {
     for (var yy = 0; yy &lt; tw; yy++) {
-        instance_create(xx*ts,yy*ts,obj_city_block);
-        if !irandom(5){
-        instance_create(xx*ts+160,yy*ts+160,obj_building);
+        var binst = instance_create(xx*ts,yy*ts,obj_city_block);
+        if xx mod 2 == 0 and yy mod 2 == 0 {
+            instance_create(xx*ts+160,yy*ts+160,obj_building);
+        } else if xx mod 2 != 0 and yy mod 2 != 0 {
+            binst.sprite_index = spr_road;
+            binst.image_index = 1;
+        } else {
+            binst.sprite_index = spr_road;
+            if yy mod 2 != 0 { binst.image_angle+=90; binst.y += ts;}
         }
     }
 }
+
 //--------------------
 
 player = instance_create(room_width/2,room_height/2,p);
